@@ -1,6 +1,7 @@
 <?php
 class TicTacToe
 {
+	
 private $currentPlayer;
 
 private function __construct($currentPlayer = "X")

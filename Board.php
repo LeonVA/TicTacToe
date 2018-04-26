@@ -21,10 +21,10 @@ public function playsSymbol($symbol,$position)
 // todo: implement	
 }
 
-
+// gives the bort infomation to Board
 public function getBoard()
 {
-	return $this->Board;
+	return $this->board;
 }
 	
 } 

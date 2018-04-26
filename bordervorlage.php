@@ -44,13 +44,11 @@
                 <table class="tic">
                     <tr>
                         <td><span class="colorO">O</span></td>
-						<td><input type="submit" class="reset field" name="cell-0-0" value="X" /></td>
                         <td><input type="submit" class="reset field" name="cell-0-1" value="X" /></td>
                         <td><input type="submit" class="reset field" name="cell-0-2" value="X" /></td>
                     </tr>
                     <tr>
                         <td><span class="colorX">X</span></td>
-						<td><input type="submit" class="reset field" name="cell-1-0" value="X" /></td>
                         <td><input type="submit" class="reset field" name="cell-1-1" value="X" /></td>
                         <td><input type="submit" class="reset field" name="cell-1-2" value="X" /></td>
                     </tr>

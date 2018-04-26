@@ -9,7 +9,7 @@ $spieler1 = new Player("Leon","X");
 $spieler2 = new Player("gegner","O");
 
 $board = new Board();
-$print($Boad->getBoard);
+$print = $Boad->getBoard;
 
 
 

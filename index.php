@@ -1,9 +1,10 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['visited'])) {
-   echo "Du hast diese Seite noch nicht besucht";
-   $_SESSION['visited'] = true;
+if (!isset($_SESSION['key'])) {
+   echo "ein zug wurde gemacht";
+   $_SESSION['key'] = serialize("$board");
+   $usestatus = unserialize($SESSSION["key"]);
 }
 
 require_once("TicTacToe.php");
